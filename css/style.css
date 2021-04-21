@@ -1,6 +1,7 @@
+
+
 .logo {
     display: flex;
-    flex-direction: row;
     justify-content: center;
     background-color: black;
 }
@@ -13,7 +14,7 @@
     margin-top: 10px;
     justify-content: center;
     border: 5px double;
-    
+    background-color: #6F90A2;
 }
 
 .nav li a {
@@ -22,13 +23,35 @@
     font-weight: 900;
     padding: 15px;
     display: block;
+    color: black;
 }
 
 .nav li {
     display: inline-block;
 }
 
-.nav li a:hover {
-    background: red;
+.nav li:hover {
+    background: white;
+}
+
+.info {
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+.remera {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+
+#footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: auto;
 }
 
