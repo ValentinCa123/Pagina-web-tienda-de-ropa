@@ -1,5 +1,3 @@
-
-
 .logo {
     display: flex;
     justify-content: center;
@@ -36,7 +34,7 @@
 
 .info {
     display: flex;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     justify-content: center;
 }
 
@@ -54,4 +52,3 @@
     justify-content: flex-end;
     padding: auto;
 }
-
