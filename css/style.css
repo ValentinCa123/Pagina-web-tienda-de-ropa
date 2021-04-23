@@ -4,6 +4,10 @@
     background-color: black;
 }
 
+img {
+    max-width: 100%;
+}
+
 .nav {
     display: flex;
     list-style: none;
@@ -51,4 +55,23 @@
     display: flex;
     justify-content: flex-end;
     padding: auto;
+}
+
+.conteiner-formulario {
+    display: flex;
+    flex-direction: row;
+    border-width: 3px;
+    border: red solid;
+}
+
+.boxleft {
+    width: 60%;
+}
+
+.boxright {
+    border: royalblue solid;
+    border-widht: 3 px;
+    width: 40%;
+    justify-content: space-around;
+
 }
