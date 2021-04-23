@@ -1,4 +1,7 @@
-
+body {
+    margin: 0;
+    padding: 0;
+}
 
 .logo {
     display: flex;
@@ -9,12 +12,11 @@
 .nav {
     display: flex;
     list-style: none;
-    background: white;
     text-align: center;
     margin-top: 10px;
     justify-content: center;
     border: 5px double;
-    background-color: #6F90A2;
+    background-color: #6F90A2;    
 }
 
 .nav li a {
@@ -51,7 +53,13 @@
 
 #footer {
     display: flex;
-    justify-content: flex-end;
-    padding: auto;
+    justify-content: flex-end;    
+    background-color: #6F90A2;
+
 }
+
+
+
+
+
 
