@@ -9,6 +9,10 @@ body {
     background-color: black;
 }
 
+img {
+    max-width: 100%;
+}
+
 .nav {
     display: flex;
     list-style: none;
@@ -16,7 +20,7 @@ body {
     margin-top: 10px;
     justify-content: center;
     border: 5px double;
-    background-color: #6F90A2;    
+    background-color: #6F90A2;
 }
 
 .nav li a {
@@ -38,7 +42,7 @@ body {
 
 .info {
     display: flex;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     justify-content: center;
 }
 
@@ -53,13 +57,25 @@ body {
 
 #footer {
     display: flex;
-    justify-content: flex-end;    
+    justify-content: flex-end;
     background-color: #6F90A2;
 
 }
 
+.conteiner-formulario {
+    display: flex;
+    flex-direction: row;
+    border-width: 3px;
+    border: red solid;
+}
 
+.boxleft {
+    width: 60%;
+}
 
-
-
-
+.boxright {
+    border: royalblue solid;
+    border-width: 3 px;
+    width: 40%;
+    justify-content: space-around;
+}
