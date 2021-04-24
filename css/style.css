@@ -18,6 +18,8 @@ img {
     list-style: none;
     text-align: center;
     margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
     justify-content: center;
     border: 5px double;
     background-color: #6F90A2;
@@ -57,10 +59,16 @@ img {
 
 #footer {
     display: flex;
-    justify-content: flex-end;
     background-color: #6F90A2;
 
 }
+
+.footer-logo {
+    display: flex;
+    position: relative;
+    left: 76%;
+}
+
 
 .conteiner-formulario {
     display: flex;
@@ -78,4 +86,20 @@ img {
     border-width: 3 px;
     width: 40%;
     justify-content: space-around;
+}
+
+.container-catalogo {
+    display: flex;
+    border: 5px solid red;
+
+}
+
+.seccion-1 {
+    display: flex;
+    border: 5px solid blue;
+}
+
+.seccion-2 {
+    display: flex;
+    border: 5px solid green;
 }
