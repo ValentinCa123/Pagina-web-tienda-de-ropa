@@ -59,16 +59,18 @@ img {
 
 #footer {
     display: flex;
+    justify-content: space-evenly;
     background-color: #6F90A2;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-.footer-logo {
-    display: flex;
-    position: relative;
-    left: 76%;
+.sub-line {
+    text-decoration: underline;
 }
-
 
 .conteiner-formulario {
     display: flex;
@@ -96,7 +98,7 @@ img {
 
 .seccion-1 {
     display: flex;
-    border: 5px solid blue;
+    justify-content: space-between;
 }
 
 .seccion-2 {
