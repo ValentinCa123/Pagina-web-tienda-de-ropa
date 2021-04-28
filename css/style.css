@@ -92,16 +92,10 @@ img {
 
 .container-catalogo {
     display: flex;
-    border: 5px solid red;
-
+    justify-content: space-evenly;
+    list-style: none;
 }
 
-.seccion-1 {
-    display: flex;
-    justify-content: space-between;
-}
-
-.seccion-2 {
-    display: flex;
-    border: 5px solid green;
+.img-galeria {
+    width: 350px;
 }
