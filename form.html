@@ -72,8 +72,8 @@
           <img src="images/captcha.png" />
           <div>
             <label for="captcha">Por favor, ingrese el código que muestra la imágen:</label>
-            <input type="text" name="captcha" value="" />
-            <input type="submit" value="Enviar pedido" />
+            <input id="captcha" type="text" name="captcha" value="" />
+            <input id="enviar" type="button" value="Enviar pedido" />
           </div>
         </div>
     </div>
@@ -82,6 +82,7 @@
       <div>
         <h2>Tabla de talles</h2>
         <table>
+        <thead>
           <tr>
             <th>Talles</th>
             <th>S</th>
@@ -89,6 +90,7 @@
             <th>L</th>
             <th>XL</th>
           </tr>
+        </thead>
           <tr>
             <td>Ancho de hombros</td>
             <td>41</td>
@@ -144,7 +146,7 @@
     <p>Email: capos@gmail.com</p>
     <p>Instagram: @Capo´s</p>   
   </div>
-
+  <script src="js/script.js"></script>
 </body>
 
 </html>

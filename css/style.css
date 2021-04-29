@@ -9,7 +9,7 @@ body {
     background-color: black;
 }
 
-img {
+.img-logo {
     max-width: 100%;
 }
 
@@ -51,7 +51,6 @@ img {
 .remera {
     display: flex;
     justify-content: center;
-    padding: auto;
     margin: auto;
     width: 400px;
     height: 400px;
@@ -76,7 +75,6 @@ img {
     display: flex;
     flex-direction: row;
     border-width: 3px;
-    border: red solid;
 }
 
 .boxleft {
@@ -84,7 +82,6 @@ img {
 }
 
 .boxright {
-    border: royalblue solid;
     border-width: 3 px;
     width: 40%;
     justify-content: space-around;
@@ -98,4 +95,22 @@ img {
 
 .img-galeria {
     width: 350px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+th {
+    border: 1px solid black;
+}
+
+thead {
+    background-color: #6F90A2;
 }
