@@ -13,8 +13,8 @@
   <div class="logo">
     <img src="images/logo.png" alt="logo de la tienda">
   </div>
-  <div class="nav">  
-  <ul>
+  <div class="nav">
+    <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="galeria.html">Galeria de productos</a></li>
       <li><a href=#footer>Contacto</a></li>
@@ -24,7 +24,7 @@
   <div class="conteiner-formulario">
     <div class="boxleft">
       <h1>Formulario de compra</h1>
-      <form>
+      <form id="formularioCompra">
         <div>
           <h3>Datos para el envío</h3>
           <div>
@@ -69,11 +69,10 @@
         </div>
 
         <div>
-          <img src="images/captcha.png" />
           <div>
-            <label for="captcha">Por favor, ingrese el código que muestra la imágen:</label>
-            <input type="text" name="captcha" value="" />
-            <input type="submit" value="Enviar pedido" />
+            <label for="captcha">¿Cuánto es <span id="valor1"></span> más <span id="valor2"></span> ?:</label>
+            <input id="captcha" type="number" name="captcha" value="" />
+            <input id="enviar" type="button" value="Enviar pedido" />
           </div>
         </div>
     </div>
@@ -133,7 +132,7 @@
           cuenta para encontrar tu talle. Si la remera no te queda como esperabas,<a href=""> contactanos </a>
           y seguí los pasos para cambiarla.</p>
       </div>
-      
+
 
     </div>
   </div>
@@ -142,9 +141,9 @@
     <p>Capo´s tienda online</p>
     <p class="sub-line">Contacto:</p>
     <p>Email: capos@gmail.com</p>
-    <p>Instagram: @Capo´s</p>   
+    <p>Instagram: @Capo´s</p>
   </div>
-
+  <script type="text/javascript" src="script.js"></script>
 </body>
 
 </html>
