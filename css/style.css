@@ -1,16 +1,27 @@
+* {
+    -ms-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
 body {
     margin: 0;
     padding: 0;
+}
+
+.img {
+    max-width: 100%;
+}
+
+p {
+    text-align: justify;
 }
 
 .logo {
     display: flex;
     justify-content: center;
     background-color: black;
-}
-
-.img-logo {
-    max-width: 100%;
 }
 
 .nav {
@@ -71,22 +82,6 @@ body {
     text-decoration: underline;
 }
 
-.conteiner-formulario {
-    display: flex;
-    flex-direction: row;
-    border-width: 3px;
-}
-
-.boxleft {
-    width: 60%;
-}
-
-.boxright {
-    border-width: 3 px;
-    width: 40%;
-    justify-content: space-around;
-}
-
 .container-catalogo {
     display: flex;
     justify-content: space-evenly;
@@ -100,6 +95,12 @@ body {
 table {
     border-collapse: collapse;
     text-align: center;
+    padding: 3px;
+    width: 100%;
+}
+
+tr {
+    margin: 3px;
 }
 
 td {
@@ -113,4 +114,51 @@ th {
 
 thead {
     background-color: #6F90A2;
+}
+
+.container-formulario {
+    display: flex;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    border-width: 3px;
+    justify-content: space-around;
+    height: 600px;
+}
+
+.boxleft {
+    display: block;
+    width: 500px;
+}
+
+.boxright {
+    display: block;
+    border-width: 3px;
+    width: 500px;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+
+input,
+select {
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    text-align: justify;
+    width: 100%;
+    max-width: 200px;
+}
+
+.error {
+    color: red;
+    font-size: 17px;
+    max-width: 100%;
+    padding: 0px;
+}
+
+.confirmacion {
+    color: seagreen;
+    font-size: 17px;
+    max-width: 100%;
+    padding: 0px;
 }

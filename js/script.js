@@ -2,7 +2,7 @@
   nodo.addEventListener ("click", validarFormulario);
 
   function validarFormulario () {
-     let elementoCaptcha = document.getElementById("captcha");
+     let elementoCaptcha = document.getElementById("inputCaptcha");
     let example = "just example";
     if (example == elementoCaptcha.value) {
         formularioEnviado();

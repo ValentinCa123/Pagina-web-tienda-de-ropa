@@ -21,62 +21,60 @@
     </ul>
   </div>
 
-  <div class="conteiner-formulario">
+  <div class="container-formulario">
     <div class="boxleft">
       <h1>Formulario de compra</h1>
-      <form id="formularioCompra">
+      <form id="formularioCompra" class="container-formulario">
         <div>
           <h3>Datos para el envío</h3>
           <div>
-            <label for="nombre"> Nombre: </label>
-            <input type="text" name="nombre" value="" />
-          </div>
-          <div>
-            <label for="email"> E-mail: </label>
-            <input type="email" name="email" value="" />
-          </div>
-
-
-          <div><label for="pago">Pago:</label>
+            <input type="text" name="nombre" value="" placeholder="Nombre" />
+            <input type="email" name="email" value="" placeholder="Email" />
             <select name="pago">
               <option value="credito">Crédito</option>
               <option value="debito">Débito</option>
-            </select></div>
-          <div><label for="cuenta">N° de cuenta:</label>
-            <input type="number" name="cuenta" value="" /></div>
-        </div>
+            </select>
+            <input type="number" name="cuenta" value="" placeholder="N° de cuenta" />
+          </div>
 
+        </div>
         <div>
-          <h3>Elección del producto</h3>
-          <div><label for="modelo">Modelo</label>
+          <div>
+            <h3>Elección del producto</h3>
             <select name="modelo">
               <option value="modelo1">Urbana</option>
               <option value="modelo1">Geek</option>
               <option value="modelo1">Crossfit</option>
               <option value="modelo1">Deconstructed</option>
-            </select></div>
-          <div><label for="talle">Talle:</label>
-            <input type="radio" name="talle" value="s" /> S
-            <input type="radio" name="talle" value="m" /> M
-            <input type="radio" name="talle" value="l" /> L
-            <input type="radio" name="talle" value="xl" /> XL
+            </select>
+            <select name="talle">
+              <option value="S">Talle S</option>
+              <option value="M">Talle M</option>
+              <option value="L">Talle L</option>
+              <option value="XL">Talle XL</option>
+            </select>
+            <select name="color">
+              <option value="blanco">Color Blanco</option>
+              <option value="gris">Color Gris</option>
+              <option value="negro">Color Negro</option>
+            </select>
           </div>
-          <div><label for="color">Color:</label>
-            <input type="radio" name="color" value="Blanco" /> Blanco
-            <input type="radio" name="color" value="Negro" /> Negro
-            <input type="radio" name="color" value="Gris" /> Gris
-          </div>
-        </div>
 
-        <div>
+
           <div>
-            <label for="captcha">¿Cuánto es <span id="valor1"></span> más <span id="valor2"></span> ?:</label>
-            <input id="captcha" type="number" name="captcha" value="" />
-            <input id="enviar" type="button" value="Enviar pedido" />
+            <p id="reintentar" class="error"></p>
+            <label for="inputCaptcha">¿Cuánto es <span id="valor1"></span> más <span id="valor2"></span> ?:</label>
+            <input id="inputCaptcha" type="number" value="" />
+            <input id="botonEnviar" type="button" value="Enviar pedido" />
+            <p id="enviado" class="confirmacion"></p>
           </div>
-        </div>
-    </div>
 
+        </div>
+
+
+      </form>
+
+    </div>
     <div class="boxright">
       <div>
         <h2>Tabla de talles</h2>
@@ -130,13 +128,18 @@
       </div>
 
       <div>
-        <p>En la tabla de talles te dejamos a disposición las distintas dimensiones que tenés que tener en
-          cuenta para encontrar tu talle. Si la remera no te queda como esperabas,<a href=""> contactanos </a>
-          y seguí los pasos para cambiarla.</p>
+        <p>En la tabla se encuentran las distintas dimensiones que hay que tener en
+          cuenta para encontrar el talle correcto.</p>
       </div>
 
 
     </div>
+
+
+
+
+
+  </div>
   </div>
 
   <div id="footer">
