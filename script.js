@@ -1,3 +1,10 @@
+document.getElementById("valor1").innerHTML = sortearValor1();
+document.getElementById("valor2").innerHTML = sortearValor2();
+document.getElementById("botonEnviar").addEventListener("click", validarFormulario);
+let boton = document.getElementById("botonEnviar");
+let warning = document.getElementById("reintentar");
+let inputDeshabilitado = document.getElementById("inputCaptcha");
+
 function sortearValor1() {
     let valor1 = (Math.random() * 10).toFixed(0);
     document.getElementById("valor1").innerHTML = valor1;
@@ -9,12 +16,6 @@ function sortearValor2() {
     document.getElementById("valor2").innerHTML = valor2;
     return valor2;
 }
-
-document.getElementById("valor1").innerHTML = sortearValor1();
-document.getElementById("valor2").innerHTML = sortearValor2();
-document.getElementById("botonEnviar").addEventListener("click", validarFormulario);
-let warning = document.getElementById("reintentar");
-let enviado = document.getElementById("enviado");
 
 function validarFormulario() {
     let inputUsuario = document.getElementById("inputCaptcha");
@@ -32,9 +33,7 @@ function validarFormulario() {
 }
 
 function enviarFormulario() {
-    let boton = document.getElementById("botonEnviar").value = "Enviado";
+    boton.value = "Enviado";
     boton.disabled = true
-    let inputDeshabilitado = document.getElementById("inputCaptcha");
     inputDeshabilitado.disabled = true;
-
 }

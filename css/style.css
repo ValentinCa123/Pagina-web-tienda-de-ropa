@@ -122,7 +122,7 @@ thead {
     flex-wrap: wrap;
     border-width: 3px;
     justify-content: space-around;
-    height: 600px;
+    min-height: 500px;
 }
 
 .boxleft {
