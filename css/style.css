@@ -14,8 +14,8 @@ body {
     max-width: 100%;
 }
 
-p {
-    text-align: justify;
+.img-logo {
+    width: 15%;
 }
 
 .logo {
@@ -53,13 +53,14 @@ p {
     background: white;
 }
 
-.info {
+.text-info p,
+h1 {
     display: flex;
     font-family: 'Times New Roman', Times, serif;
     justify-content: center;
 }
 
-.remera {
+.img-model {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -73,7 +74,6 @@ p {
     background-color: #6F90A2;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
-    flex-direction: row;
     padding-left: 200px;
     padding-right: 200px;
 }
@@ -122,7 +122,7 @@ thead {
     flex-wrap: wrap;
     border-width: 3px;
     justify-content: space-around;
-    height: 600px;
+    min-height: 600px;
 }
 
 .boxleft {
