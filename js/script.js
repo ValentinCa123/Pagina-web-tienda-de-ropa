@@ -28,6 +28,7 @@ function validarFormulario() {
         enviado.innerHTML = "¡Gracias por su compra!";
     } else {
         warning.innerHTML = "Incorrecto. Por favor, reintentar.";
+        sortearValor1();
         sortearValor2();
     }
 }
