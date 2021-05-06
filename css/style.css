@@ -33,7 +33,6 @@ body {
     margin-right: 5px;
     justify-content: center;
     border: 5px double;
-    background-color: #6F90A2;
 }
 
 .nav li a {
@@ -49,8 +48,9 @@ body {
     display: inline-block;
 }
 
-.nav li:hover {
-    background: white;
+.nav li:hover a {
+    background: #333;
+    color: white;
 }
 
 .text-info p,
@@ -71,11 +71,12 @@ h1 {
 #footer {
     display: flex;
     justify-content: space-evenly;
-    background-color: #6F90A2;
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 900;
     padding-left: 200px;
     padding-right: 200px;
+
 }
 
 .sub-line {
