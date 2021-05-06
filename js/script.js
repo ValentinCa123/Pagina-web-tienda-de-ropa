@@ -35,6 +35,6 @@ function validarFormulario() {
 
 function enviarFormulario() {
     boton.value = "Enviado";
-    boton.disabled = true
+    boton.disabled = true;
     inputDeshabilitado.disabled = true;
 }
